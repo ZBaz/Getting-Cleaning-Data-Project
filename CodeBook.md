@@ -1,6 +1,20 @@
 # Code Book
 
-# Files and Data Overview
+# Variable renaming
+
+The original variable(feature) names were renamed in order to make them more descriptive. Below is a summary of changes.
+
+"mean" was changed to  "Mean"
+"std" was changed to  "StdDev"
+"Acc" was changed to  "Accelerator"
+"t" was changed to  "Time-"
+"f" was changed to  "Frequency-"
+"Mag" was changed to  "Magnitude"
+"Gyro" was changed to  "Gyroscope"
+"BodyBody" was changed to  "Body"
+
+
+# Raw Files and Data Overview
 
 The intial Data can be found at: http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
 
