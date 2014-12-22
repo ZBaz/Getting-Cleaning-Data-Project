@@ -4,8 +4,8 @@
 
 The final tidy data set was created by calculating for each mean and standard deviation feature, the average by each activity and subject. The code to select the mean and standard deviation feature selection and final mean calculation are shown below.
 
-`## Extract only the measurements on the mean and standard deviation for each measurement  
- myFeatures <- grep(".*mean.*|.*std.*", features[,2]) `
+`## Extract only the measurements on the mean and standard deviation for each measurement`  
+` myFeatures <- grep(".*mean.*|.*std.*", features[,2]) `
 
 
 
