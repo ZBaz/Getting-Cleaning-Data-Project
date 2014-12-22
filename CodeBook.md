@@ -1,6 +1,15 @@
 # Code Book
 
-# Variable renaming
+# Summary calculations
+
+The final tidy data set was created by calculating for each mean and standard deviation feature, the average by each activity and subject. The code to select the mean and standard deviation feature selection and final mean calculation are shown below.
+
+`## Extract only the measurements on the mean and standard deviation for each measurement  
+ myFeatures <- grep(".*mean.*|.*std.*", features[,2]) `
+
+
+
+# Variable updates
 
 The original variable(feature) names were renamed in order to make them more descriptive. Below is a summary of changes.
 
@@ -19,6 +28,8 @@ The original variable(feature) names were renamed in order to make them more des
 "Gyro" was changed to  "Gyroscope"
 
 "BodyBody" was changed to  "Body"
+
+Below is more information on the original raw data and files
 
 
 # Raw Files and Data Overview
