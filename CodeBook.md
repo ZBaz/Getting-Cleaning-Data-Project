@@ -5,12 +5,19 @@
 The original variable(feature) names were renamed in order to make them more descriptive. Below is a summary of changes.
 
 "mean" was changed to  "Mean"
+
 "std" was changed to  "StdDev"
+
 "Acc" was changed to  "Accelerator"
+
 "t" was changed to  "Time-"
+
 "f" was changed to  "Frequency-"
+
 "Mag" was changed to  "Magnitude"
+
 "Gyro" was changed to  "Gyroscope"
+
 "BodyBody" was changed to  "Body"
 
 
