@@ -8,7 +8,9 @@ The final tidy data set was created by calculating for each mean and standard de
 ` myFeatures <- grep(".*mean.*|.*std.*", features[,2]) `
 
 `## Create a tidy data set with the average of each variable for each activity and each subject. `
+
 `require(plyr)`
+
 `tidyData = ddply(mySubData, c("Subjects","Activity"), numcolwise(mean)) `
 
 
