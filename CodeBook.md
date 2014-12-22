@@ -2,7 +2,7 @@
 
 # Files and Data Overview
 
-The intial Data can be found at: 
+The intial Data can be found at: http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
 
 The following information describing the files in the Zip file is found in the README.txt file.
 
