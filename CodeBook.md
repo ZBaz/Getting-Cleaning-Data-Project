@@ -6,6 +6,10 @@ The intial Data can be found at:
 
 The following information describing the files in the Zip file is found in the README.txt file.
 
+Attribute Information:
+=========================================
+For each record in the dataset it is provided:
+
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
 - A 561-feature vector with time and frequency domain variables. 
